@@ -195,7 +195,7 @@ with st.sidebar:
                 "- 跨区资金筹措与长周期运营财务")
 
 # 文件上传
-uploaded_file = st.file_uploader("请上传您的工程可研报告 PDF 文件（完美支持东太湖隧道等大样本）", type=["pdf"])
+uploaded_file = st.file_uploader("请上传您的工程可研报告 PDF 文件", type=["pdf"])
 
 if uploaded_file is not None:
 # 使用 session_state 存储结果，确保网页刷新时数据不丢失
